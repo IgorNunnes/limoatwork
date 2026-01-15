@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found limo_msgs: 0.0.0 (/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/cmake)
+-- Configuring done (4.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/atwork/limo_3.0/src/build/limo_base
+[ 25%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_driver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_base_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/serial_port.cpp.o[0m
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In constructor ‘[01m[KAgileX::LimoDriver::[01;32m[KLimoDriver[m[K(std::string)[m[K’:
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:44:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcontrol_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |     int [01;35m[Kcontrol_rate[m[K = this->declare_parameter<int>("control_rate", 50);
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::[01;32m[KparseFrame[m[K(const AgileX::LimoFrame&)[m[K’:
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:296:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_wheel_odom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  296 |             int32_t [01;35m[Kleft_wheel_odom[m[K = (frame.data[3] & 0xff) | (frame.data[2] << 8) |
+      |                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:298:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_wheel_odom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  298 |             int32_t [01;35m[Kright_wheel_odom[m[K = (frame.data[7] & 0xff) | (frame.data[6] << 8) |
+      |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::[01;32m[KpublishIMUData[m[K(double)[m[K’:
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:487:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpresent_theta_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  487 |         double [01;35m[Kpresent_theta_[m[K =imu_data_.yaw;
+      |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:488:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_theta_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  488 |         double [01;35m[Klast_theta_[m[K = imu_data_.yaw;
+      |                [01;35m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/limo_base.dir/build.make:90: CMakeFiles/limo_base.dir/src/limo_driver.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limo_base.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

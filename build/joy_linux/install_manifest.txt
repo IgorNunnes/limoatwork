@@ -1,0 +1,16 @@
+/home/atwork/limo_3.0/install/joy_linux/lib/joy_linux/joy_linux_node
+/home/atwork/limo_3.0/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+/home/atwork/limo_3.0/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/path.sh
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/path.dsv
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.bash
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.sh
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.zsh
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.dsv
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/package.dsv
+/home/atwork/limo_3.0/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+/home/atwork/limo_3.0/install/joy_linux/share/joy_linux/package.xml

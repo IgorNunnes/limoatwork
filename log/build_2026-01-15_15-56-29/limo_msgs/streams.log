@@ -1,0 +1,147 @@
+[0.023s] Invoking command in '/home/atwork/limo_3.0/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/build/limo_msgs -- -j4 -l4
+[0.104s] [  2%] Built target limo_msgs__rosidl_generator_type_description
+[0.115s] [  2%] Built target ament_cmake_python_copy_limo_msgs
+[0.146s] [  5%] Built target limo_msgs__cpp
+[0.152s] [ 20%] Built target limo_msgs__rosidl_generator_c
+[0.204s] [ 29%] Built target limo_msgs__rosidl_typesupport_c
+[0.209s] [ 38%] Built target limo_msgs__rosidl_typesupport_cpp
+[0.216s] [ 47%] Built target limo_msgs__rosidl_typesupport_introspection_cpp
+[0.281s] [ 55%] Built target limo_msgs__rosidl_typesupport_fastrtps_c
+[0.282s] [ 64%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.298s] [ 73%] Built target limo_msgs__rosidl_typesupport_introspection_c
+[0.379s] [ 73%] Built target limo_msgs
+[0.453s] [ 76%] Built target limo_msgs__py
+[0.522s] [ 82%] Built target limo_msgs__rosidl_generator_py
+[0.606s] [ 88%] Built target limo_msgs_s__rosidl_typesupport_introspection_c
+[0.606s] [ 94%] Built target limo_msgs_s__rosidl_typesupport_c
+[0.606s] [100%] Built target limo_msgs_s__rosidl_typesupport_fastrtps_c
+[0.632s] running egg_info
+[0.684s] writing limo_msgs.egg-info/PKG-INFO
+[0.684s] writing dependency_links to limo_msgs.egg-info/dependency_links.txt
+[0.685s] writing top-level names to limo_msgs.egg-info/top_level.txt
+[0.819s] reading manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[0.820s] writing manifest file 'limo_msgs.egg-info/SOURCES.txt'
+[0.880s] [100%] Built target ament_cmake_python_build_limo_msgs_egg
+[0.915s] Invoked command in '/home/atwork/limo_3.0/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/build/limo_msgs -- -j4 -l4
+[0.917s] Invoking command in '/home/atwork/limo_3.0/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/build/limo_msgs
+[0.965s] -- Install configuration: ""
+[0.965s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs
+[0.966s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/msg/LimoStatus.json
+[0.966s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs
+[0.966s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[0.966s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[0.972s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.h
+[0.979s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__description.c
+[0.980s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.c
+[0.980s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.h
+[0.980s] -- Installing: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.c
+[0.980s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.h
+[0.980s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.h
+[0.980s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.980s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/library_path.sh
+[0.980s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/library_path.dsv
+[0.981s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so
+[0.982s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs
+[0.982s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[0.983s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.983s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[0.983s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h
+[0.984s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so
+[0.984s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs
+[0.984s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[0.987s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[0.987s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.hpp
+[0.987s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.hpp
+[0.987s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__traits.hpp
+[0.987s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__builder.hpp
+[0.987s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.987s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.hpp
+[0.988s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs
+[0.988s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[0.988s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[0.988s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.988s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/dds_fastrtps
+[0.991s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.991s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.991s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs
+[0.991s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[0.991s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[0.992s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h
+[0.992s] -- Installing: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.c
+[0.992s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.992s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so
+[0.992s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so
+[0.992s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs
+[0.992s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg
+[0.993s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail
+[0.993s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp
+[0.993s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.cpp
+[0.993s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so
+[0.993s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so
+[0.994s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh
+[0.994s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv
+[1.000s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info
+[1.001s] -- Installing: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[1.001s] -- Installing: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[1.001s] -- Installing: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.001s] -- Installing: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.001s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs
+[1.002s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/__init__.py
+[1.002s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.002s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.so
+[1.005s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.005s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c
+[1.006s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg
+[1.006s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/_limo_status_s.c
+[1.006s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/__init__.py
+[1.006s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg/_limo_status.py
+[1.006s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.006s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.029s] Listing '/home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs'...
+[1.029s] Listing '/home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/msg'...
+[1.038s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.038s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.038s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/python3.12/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.so
+[1.039s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so
+[1.040s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl
+[1.043s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg
+[1.044s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs
+[1.044s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs
+[1.044s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh
+[1.044s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv
+[1.045s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/path.sh
+[1.047s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/environment/path.dsv
+[1.047s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/local_setup.bash
+[1.048s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/local_setup.sh
+[1.048s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/local_setup.zsh
+[1.049s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/local_setup.dsv
+[1.049s] -- Installing: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/package.dsv
+[1.049s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs
+[1.049s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport.cmake
+[1.049s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.050s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.051s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.051s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cppExport.cmake
+[1.051s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.051s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.051s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.051s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.052s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake
+[1.052s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.052s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.052s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.052s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake
+[1.053s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.053s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport.cmake
+[1.054s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.054s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake
+[1.054s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.054s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.055s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.057s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.057s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.057s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.057s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake
+[1.057s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake
+[1.058s] -- Up-to-date: /home/atwork/limo_3.0/install/limo_msgs/share/limo_msgs/package.xml
+[1.061s] Invoked command in '/home/atwork/limo_3.0/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/build/limo_msgs

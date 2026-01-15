@@ -1,0 +1,4 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/atwork/limo_3.0/install/p9n_interface/share/p9n_interface/package.sh"
+. "/home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/package.sh"
+. "/home/atwork/limo_3.0/install/joy/share/joy/package.sh"

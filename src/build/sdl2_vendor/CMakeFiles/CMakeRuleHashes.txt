@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+676c5d8cb9074099cf4ef414c1c79bf4 CMakeFiles/sdl2_vendor_uninstall

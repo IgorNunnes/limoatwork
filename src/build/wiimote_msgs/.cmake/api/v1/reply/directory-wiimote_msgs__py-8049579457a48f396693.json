@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "wiimote_msgs__py",
+		"source" : "/home/atwork/limo_3.0/src/build/wiimote_msgs/wiimote_msgs__py"
+	}
+}

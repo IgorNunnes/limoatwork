@@ -1,0 +1,20 @@
+[1.351s] Invoking command in '/home/atwork/limo_3.0/src/limo_cartographer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/atwork/limo_3.0/build/limo_cartographer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atwork/limo_3.0/install/limo_cartographer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_cartographer build --build-base /home/atwork/limo_3.0/build/limo_cartographer/build install --record /home/atwork/limo_3.0/build/limo_cartographer/install.log --single-version-externally-managed install_data
+[1.806s] running egg_info
+[1.833s] writing ../../build/limo_cartographer/limo_cartographer.egg-info/PKG-INFO
+[1.834s] writing dependency_links to ../../build/limo_cartographer/limo_cartographer.egg-info/dependency_links.txt
+[1.835s] writing requirements to ../../build/limo_cartographer/limo_cartographer.egg-info/requires.txt
+[1.835s] writing top-level names to ../../build/limo_cartographer/limo_cartographer.egg-info/top_level.txt
+[1.899s] reading manifest file '../../build/limo_cartographer/limo_cartographer.egg-info/SOURCES.txt'
+[1.899s] writing manifest file '../../build/limo_cartographer/limo_cartographer.egg-info/SOURCES.txt'
+[1.899s] running build
+[1.899s] running build_py
+[1.900s] running install
+[1.910s] running install_lib
+[1.935s] running install_data
+[1.936s] copying config/limo_2d.lua -> /home/atwork/limo_3.0/install/limo_cartographer/share/limo_cartographer/config
+[1.936s] running install_egg_info
+[1.958s] removing '/home/atwork/limo_3.0/install/limo_cartographer/lib/python3.12/site-packages/limo_cartographer-0.0.0-py3.12.egg-info' (and everything under it)
+[1.959s] Copying ../../build/limo_cartographer/limo_cartographer.egg-info to /home/atwork/limo_3.0/install/limo_cartographer/lib/python3.12/site-packages/limo_cartographer-0.0.0-py3.12.egg-info
+[1.960s] running install_scripts
+[2.100s] writing list of installed files to '/home/atwork/limo_3.0/build/limo_cartographer/install.log'
+[2.140s] Invoked command in '/home/atwork/limo_3.0/src/limo_cartographer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/atwork/limo_3.0/build/limo_cartographer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atwork/limo_3.0/install/limo_cartographer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/limo_cartographer build --build-base /home/atwork/limo_3.0/build/limo_cartographer/build install --record /home/atwork/limo_3.0/build/limo_cartographer/install.log --single-version-externally-managed install_data

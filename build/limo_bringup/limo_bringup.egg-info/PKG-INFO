@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: limo-bringup
+Version: 0.0.0
+Summary: LIMO bringup package for ROS 2 Jazzy
+Maintainer: atwork
+Maintainer-email: you@example.com
+License: Apache License 2.0

@@ -1,0 +1,35 @@
+[1.706s] Invoking command in '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_bringup': CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/install/p9n_node/lib:/home/atwork/limo_3.0/install/joy/lib:/home/atwork/limo_3.0/install/wiimote/lib:/home/atwork/limo_3.0/install/wiimote_msgs/lib:/home/atwork/limo_3.0/install/urg_node/lib:/home/atwork/limo_3.0/install/spacenav/lib:/home/atwork/limo_3.0/install/p9n_test/lib:/home/atwork/limo_3.0/install/p9n_example/lib:/home/atwork/limo_3.0/install/p9n_interface/lib:/home/atwork/limo_3.0/install/limo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/atwork/limo_3.0/build/p9n_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atwork/limo_3.0/install/p9n_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/p9n_bringup build --build-base /home/atwork/limo_3.0/build/p9n_bringup/build install --record /home/atwork/limo_3.0/build/p9n_bringup/install.log --single-version-externally-managed install_data
+[2.253s] running egg_info
+[2.253s] creating ../../../build/p9n_bringup/p9n_bringup.egg-info
+[2.291s] writing ../../../build/p9n_bringup/p9n_bringup.egg-info/PKG-INFO
+[2.292s] writing dependency_links to ../../../build/p9n_bringup/p9n_bringup.egg-info/dependency_links.txt
+[2.293s] writing requirements to ../../../build/p9n_bringup/p9n_bringup.egg-info/requires.txt
+[2.293s] writing top-level names to ../../../build/p9n_bringup/p9n_bringup.egg-info/top_level.txt
+[2.293s] writing manifest file '../../../build/p9n_bringup/p9n_bringup.egg-info/SOURCES.txt'
+[2.375s] reading manifest file '../../../build/p9n_bringup/p9n_bringup.egg-info/SOURCES.txt'
+[2.376s] writing manifest file '../../../build/p9n_bringup/p9n_bringup.egg-info/SOURCES.txt'
+[2.376s] running build
+[2.377s] running build_py
+[2.377s] creating /home/atwork/limo_3.0/build/p9n_bringup/build
+[2.378s] creating /home/atwork/limo_3.0/build/p9n_bringup/build/lib
+[2.378s] creating /home/atwork/limo_3.0/build/p9n_bringup/build/lib/p9n_bringup
+[2.379s] copying p9n_bringup/__init__.py -> /home/atwork/limo_3.0/build/p9n_bringup/build/lib/p9n_bringup
+[2.379s] running install
+[2.390s] running install_lib
+[2.436s] creating /home/atwork/limo_3.0/install/p9n_bringup/lib/python3.12/site-packages/p9n_bringup
+[2.437s] copying /home/atwork/limo_3.0/build/p9n_bringup/build/lib/p9n_bringup/__init__.py -> /home/atwork/limo_3.0/install/p9n_bringup/lib/python3.12/site-packages/p9n_bringup
+[2.437s] byte-compiling /home/atwork/limo_3.0/install/p9n_bringup/lib/python3.12/site-packages/p9n_bringup/__init__.py to __init__.cpython-312.pyc
+[2.438s] running install_data
+[2.438s] creating /home/atwork/limo_3.0/install/p9n_bringup/share/ament_index
+[2.438s] creating /home/atwork/limo_3.0/install/p9n_bringup/share/ament_index/resource_index
+[2.439s] creating /home/atwork/limo_3.0/install/p9n_bringup/share/ament_index/resource_index/packages
+[2.439s] copying resource/p9n_bringup -> /home/atwork/limo_3.0/install/p9n_bringup/share/ament_index/resource_index/packages
+[2.439s] copying package.xml -> /home/atwork/limo_3.0/install/p9n_bringup/share/p9n_bringup
+[2.439s] creating /home/atwork/limo_3.0/install/p9n_bringup/share/p9n_bringup/launch
+[2.439s] copying launch/teleop.launch.py -> /home/atwork/limo_3.0/install/p9n_bringup/share/p9n_bringup/launch
+[2.440s] copying launch/teleop_turtlesim.launch.py -> /home/atwork/limo_3.0/install/p9n_bringup/share/p9n_bringup/launch
+[2.444s] running install_egg_info
+[2.480s] Copying ../../../build/p9n_bringup/p9n_bringup.egg-info to /home/atwork/limo_3.0/install/p9n_bringup/lib/python3.12/site-packages/p9n_bringup-1.1.1-py3.12.egg-info
+[2.485s] running install_scripts
+[2.741s] writing list of installed files to '/home/atwork/limo_3.0/build/p9n_bringup/install.log'
+[2.797s] Invoked command in '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_bringup' returned '0': CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/install/p9n_node/lib:/home/atwork/limo_3.0/install/joy/lib:/home/atwork/limo_3.0/install/wiimote/lib:/home/atwork/limo_3.0/install/wiimote_msgs/lib:/home/atwork/limo_3.0/install/urg_node/lib:/home/atwork/limo_3.0/install/spacenav/lib:/home/atwork/limo_3.0/install/p9n_test/lib:/home/atwork/limo_3.0/install/p9n_example/lib:/home/atwork/limo_3.0/install/p9n_interface/lib:/home/atwork/limo_3.0/install/limo_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/atwork/limo_3.0/build/p9n_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/atwork/limo_3.0/install/p9n_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/p9n_bringup build --build-base /home/atwork/limo_3.0/build/p9n_bringup/build install --record /home/atwork/limo_3.0/build/p9n_bringup/install.log --single-version-externally-managed install_data

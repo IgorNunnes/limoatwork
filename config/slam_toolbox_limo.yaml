@@ -1,0 +1,38 @@
+slam_toolbox:
+  ros__parameters:
+
+    # =========================
+    # Frames y tópicos
+    # =========================
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    scan_topic: /scan
+
+    # =========================
+    # Sincronización TF (CRÍTICO)
+    # =========================
+    transform_timeout: 1.0
+
+    # =========================
+    # Manejo de scans
+    # =========================
+    scan_queue_size: 200
+    throttle_scans: 2
+    minimum_time_interval: 0.05
+
+    # =========================
+    # Parámetros del mapa
+    # =========================
+    resolution: 0.05
+    max_laser_range: 15.0
+
+    # =========================
+    # Modo de operación
+    # =========================
+    mode: mapping
+
+    # =========================
+    # Estabilidad
+    # =========================
+    use_sim_time: false

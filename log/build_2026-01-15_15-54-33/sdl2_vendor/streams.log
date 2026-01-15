@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/home/atwork/limo_3.0/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/build/sdl2_vendor -- -j4 -l4
+[0.083s] Invoked command in '/home/atwork/limo_3.0/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/build/sdl2_vendor -- -j4 -l4
+[0.097s] Invoking command in '/home/atwork/limo_3.0/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/build/sdl2_vendor
+[0.116s] -- Install configuration: ""
+[0.121s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/cmake
+[0.122s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules
+[0.122s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake
+[0.122s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor
+[0.135s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor
+[0.135s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh
+[0.136s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv
+[0.136s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh
+[0.136s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv
+[0.136s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash
+[0.136s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh
+[0.136s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh
+[0.136s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv
+[0.136s] -- Installing: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/package.dsv
+[0.137s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor
+[0.137s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake
+[0.137s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake
+[0.137s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake
+[0.139s] -- Up-to-date: /home/atwork/limo_3.0/install/sdl2_vendor/share/sdl2_vendor/package.xml
+[0.167s] Invoked command in '/home/atwork/limo_3.0/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/home/atwork/limo_3.0/install/limo_cartographer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/build/sdl2_vendor

@@ -1,0 +1,18 @@
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In constructor ‘[01m[KAgileX::LimoDriver::[01;32m[KLimoDriver[m[K(std::string)[m[K’:
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:44:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcontrol_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |     int [01;35m[Kcontrol_rate[m[K = this->declare_parameter<int>("control_rate", 50);
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::[01;32m[KparseFrame[m[K(const AgileX::LimoFrame&)[m[K’:
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:296:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_wheel_odom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  296 |             int32_t [01;35m[Kleft_wheel_odom[m[K = (frame.data[3] & 0xff) | (frame.data[2] << 8) |
+      |                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:298:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_wheel_odom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  298 |             int32_t [01;35m[Kright_wheel_odom[m[K = (frame.data[7] & 0xff) | (frame.data[6] << 8) |
+      |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::[01;32m[KpublishIMUData[m[K(double)[m[K’:
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:487:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpresent_theta_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  487 |         double [01;35m[Kpresent_theta_[m[K =imu_data_.yaw;
+      |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/atwork/limo_3.0/src/limo_ros2/limo_base/src/limo_driver.cpp:488:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_theta_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  488 |         double [01;35m[Klast_theta_[m[K = imu_data_.yaw;
+      |                [01;35m[K^~~~~~~~~~~[m[K

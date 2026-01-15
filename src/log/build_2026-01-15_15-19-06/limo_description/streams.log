@@ -1,0 +1,66 @@
+[0.019s] Invoking command in '/home/atwork/limo_3.0/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_description -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_description
+[0.173s] -- The C compiler identification is GNU 13.3.0
+[0.310s] -- The CXX compiler identification is GNU 13.3.0
+[0.336s] -- Detecting C compiler ABI info
+[0.468s] -- Detecting C compiler ABI info - done
+[0.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.489s] -- Detecting C compile features
+[0.490s] -- Detecting C compile features - done
+[0.506s] -- Detecting CXX compiler ABI info
+[0.662s] -- Detecting CXX compiler ABI info - done
+[0.696s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.697s] -- Detecting CXX compile features
+[0.700s] -- Detecting CXX compile features - done
+[0.704s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.956s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.180s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.392s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.400s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.400s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.403s] -- Added test 'lint_cmake' to check CMake code style
+[1.405s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.408s] -- Added test 'xmllint' to check XML markup files
+[1.412s] -- Configuring done (1.4s)
+[1.416s] -- Generating done (0.0s)
+[1.420s] -- Build files have been written to: /home/atwork/limo_3.0/src/build/limo_description
+[1.436s] Invoked command in '/home/atwork/limo_3.0/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_description -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_description
+[1.437s] Invoking command in '/home/atwork/limo_3.0/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/limo_description -- -j4 -l4
+[1.492s] Invoked command in '/home/atwork/limo_3.0/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/limo_description -- -j4 -l4
+[1.493s] Invoking command in '/home/atwork/limo_3.0/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/limo_description
+[1.507s] -- Install configuration: ""
+[1.508s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/launch
+[1.508s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py
+[1.509s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/launch/display_models_diff.launch.py
+[1.509s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/meshes
+[1.509s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/meshes/limo_base.dae
+[1.571s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/meshes/limo_wheel.stl
+[1.580s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/meshes/limo_base.stl
+[1.627s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/meshes/limo_wheel.dae
+[1.642s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/rviz
+[1.642s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/rviz/model_display.rviz
+[1.642s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/rviz/urdf.rviz
+[1.643s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf
+[1.643s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo
+[1.643s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro
+[1.644s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo
+[1.644s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo
+[1.645s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro
+[1.645s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_xacro.xacro
+[1.645s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo
+[1.646s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro
+[1.646s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description
+[1.647s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description
+[1.647s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/environment/ament_prefix_path.sh
+[1.648s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv
+[1.648s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/environment/path.sh
+[1.648s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/environment/path.dsv
+[1.649s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/local_setup.bash
+[1.649s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/local_setup.sh
+[1.650s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/local_setup.zsh
+[1.650s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/local_setup.dsv
+[1.650s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.dsv
+[1.651s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/ament_index/resource_index/packages/limo_description
+[1.651s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake
+[1.652s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake
+[1.652s] -- Installing: /home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.xml
+[1.656s] Invoked command in '/home/atwork/limo_3.0/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/limo_description

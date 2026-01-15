@@ -1,0 +1,10 @@
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/uninstall.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/p9n_interface_uninstall.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/p9n_interface.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/test.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/edit_cache.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/rebuild_cache.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/list_install_components.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/install.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/install/local.dir
+/home/atwork/limo_3.0/src/build/p9n_interface/CMakeFiles/install/strip.dir

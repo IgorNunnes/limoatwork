@@ -1,0 +1,68 @@
+[0.019s] Invoking command in '/home/atwork/limo_3.0/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_cartographer:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/install/joy_linux
+[0.126s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.260s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.607s] -- Detecting CXX compiler ABI info - done
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.629s] -- Detecting CXX compile features
+[0.630s] -- Detecting CXX compile features - done
+[0.636s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.978s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.267s] -- Found diagnostic_msgs: 5.3.6 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[1.372s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.414s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.710s] -- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[1.863s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.872s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.044s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.079s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.119s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.268s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.351s] -- Looking for include file linux/joystick.h
+[2.540s] -- Looking for include file linux/joystick.h - found
+[2.547s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.749s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.750s] -- Configured cppcheck include dirs: /home/atwork/limo_3.0/src/joystick_drivers/joy_linux/msg/cpp
+[2.750s] -- Configured cppcheck exclude dirs and/or files: 
+[2.752s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.752s] -- Configured cpplint exclude dirs and/or files: 
+[2.755s] -- Added test 'lint_cmake' to check CMake code style
+[2.757s] -- Added test 'uncrustify' to check C / C++ code style
+[2.758s] -- Configured uncrustify additional arguments: 
+[2.760s] -- Added test 'xmllint' to check XML markup files
+[2.764s] -- Configuring done (2.7s)
+[2.797s] -- Generating done (0.0s)
+[2.815s] -- Build files have been written to: /home/atwork/limo_3.0/build/joy_linux
+[2.834s] Invoked command in '/home/atwork/limo_3.0/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_cartographer:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/install/joy_linux
+[2.835s] Invoking command in '/home/atwork/limo_3.0/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_cartographer:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/build/joy_linux -- -j4 -l4
+[2.909s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o[0m
+[18.418s] [100%] [32m[1mLinking CXX executable joy_linux_node[0m
+[19.061s] [100%] Built target joy_linux_node
+[19.088s] Invoked command in '/home/atwork/limo_3.0/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_cartographer:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/build/joy_linux -- -j4 -l4
+[19.089s] Invoking command in '/home/atwork/limo_3.0/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_cartographer:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/build/joy_linux
+[19.097s] -- Install configuration: ""
+[19.098s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/lib/joy_linux/joy_linux_node
+[19.103s] -- Set non-toolchain portion of runtime path of "/home/atwork/limo_3.0/install/joy_linux/lib/joy_linux/joy_linux_node" to ""
+[19.104s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+[19.105s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+[19.105s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+[19.105s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+[19.106s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/path.sh
+[19.106s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/environment/path.dsv
+[19.108s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.bash
+[19.109s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.sh
+[19.109s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.zsh
+[19.109s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/local_setup.dsv
+[19.109s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/package.dsv
+[19.109s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+[19.109s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+[19.109s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+[19.110s] -- Installing: /home/atwork/limo_3.0/install/joy_linux/share/joy_linux/package.xml
+[19.111s] Invoked command in '/home/atwork/limo_3.0/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_cartographer:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/build/joy_linux

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "limo_msgs__py",
+		"source" : "/home/atwork/limo_3.0/src/build/limo_msgs/limo_msgs__py"
+	}
+}

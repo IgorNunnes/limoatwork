@@ -1,0 +1,856 @@
+[0.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.142s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76688af81940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76688af816a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76688af816a0>>)
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/atwork/limo_3.0/src'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/media) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'PlayStation-JoyInterface-ROS2/p9n' with type 'ros.ament_cmake' and name 'p9n'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_bringup) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'PlayStation-JoyInterface-ROS2/p9n_bringup' with type 'ros.ament_python' and name 'p9n_bringup'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_example) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'PlayStation-JoyInterface-ROS2/p9n_example' with type 'ros.ament_cmake' and name 'p9n_example'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_interface) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'PlayStation-JoyInterface-ROS2/p9n_interface' with type 'ros.ament_cmake' and name 'p9n_interface'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_node) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'PlayStation-JoyInterface-ROS2/p9n_node' with type 'ros.ament_cmake' and name 'p9n_node'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(PlayStation-JoyInterface-ROS2/p9n_test) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'PlayStation-JoyInterface-ROS2/p9n_test' with type 'ros.ament_cmake' and name 'p9n_test'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joy_linux) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/joystick_drivers) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/ps3joy) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/sdl2_vendor) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/sdl2_vendor' with type 'ros.ament_cmake' and name 'sdl2_vendor'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/spacenav) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/spacenav' with type 'ros.ament_cmake' and name 'spacenav'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/wiimote' with type 'ros.ament_cmake' and name 'wiimote'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(joystick_drivers/wiimote_msgs) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'joystick_drivers/wiimote_msgs' with type 'ros.ament_cmake' and name 'wiimote_msgs'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(limo_cartographer) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_cartographer' with type 'ros.ament_python' and name 'limo_cartographer'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_base) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_ros2/limo_base' with type 'ros.ament_cmake' and name 'limo_base'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_bringup) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_ros2/limo_bringup' with type 'ros.ament_python' and name 'limo_bringup'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_description) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_ros2/limo_description' with type 'ros.ament_cmake' and name 'limo_description'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(limo_ros2/limo_msgs) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_ros2/limo_msgs' with type 'ros.ament_cmake' and name 'limo_msgs'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(urg_node) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'urg_node' with type 'ros.ament_cmake' and name 'urg_node'
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.275s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/atwork/limo_3.0/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/jazzy
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.323s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /home/atwork/limo_3.0/install/joy, /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'joy_linux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/joy_linux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/joy_linux', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/joystick_drivers/joy_linux', 'symlink_install': False, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'limo_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'limo_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/limo_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/limo_cartographer', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/limo_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'limo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/limo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/limo_description', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/limo_ros2/limo_description', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'limo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/limo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/limo_msgs', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/limo_ros2/limo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'p9n_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'p9n_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/p9n_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/p9n_interface', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_interface', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'sdl2_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'sdl2_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/sdl2_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/sdl2_vendor', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/joystick_drivers/sdl2_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spacenav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'spacenav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/spacenav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/spacenav', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/joystick_drivers/spacenav', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/urg_node', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/urg_node', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'wiimote_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/wiimote_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/wiimote_msgs', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/joy', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/joystick_drivers/joy', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'limo_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/limo_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/limo_base', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/limo_ros2/limo_base', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'wiimote' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'wiimote' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/wiimote', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/wiimote', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/joystick_drivers/wiimote', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'limo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/limo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/limo_bringup', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/limo_ros2/limo_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'p9n_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'p9n_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/p9n_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/p9n_example', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_example', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'p9n_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/p9n_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/p9n_node', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_node', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'p9n_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/p9n_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/p9n_test', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_test', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'p9n_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/p9n_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/p9n_bringup', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'p9n' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'p9n' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atwork/limo_3.0/src/build/p9n', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atwork/limo_3.0/src/install/p9n', 'merge_install': False, 'path': '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n', 'symlink_install': False, 'test_result_base': None}
+[0.333s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/joystick_drivers/sdl2_vendor' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/joystick_drivers/sdl2_vendor'
+[0.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_interface' with build type 'ament_cmake'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_interface'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/limo_ros2/limo_msgs' with build type 'ament_cmake'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/limo_ros2/limo_msgs'
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/limo_ros2/limo_description' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/limo_ros2/limo_description'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/sdl2_vendor -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/sdl2_vendor
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/p9n_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_interface -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/p9n_interface
+[0.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_msgs -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_msgs
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_description -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_description
+[1.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/sdl2_vendor -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/sdl2_vendor
+[1.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/sdl2_vendor -- -j4 -l4
+[1.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/sdl2_vendor -- -j4 -l4
+[1.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/sdl2_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/sdl2_vendor
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_description -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_description
+[1.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/limo_description -- -j4 -l4
+[1.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[1.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/sdl2_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/sdl2_vendor
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor' for CMake module files
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor' for CMake config files
+[1.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[1.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/bin'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/lib/python3.12/site-packages'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/bin'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[1.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[1.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[1.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[1.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdl2_vendor)
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor' for CMake module files
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor' for CMake config files
+[1.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdl2_vendor', 'cmake_prefix_path')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/hook/cmake_prefix_path.sh'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/lib/pkgconfig/sdl2_vendor.pc'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/lib/python3.12/site-packages'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/sdl2_vendor/bin'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.sh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.bash'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/sdl2_vendor/share/sdl2_vendor/package.zsh'
+[1.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/sdl2_vendor/share/colcon-core/packages/sdl2_vendor)
+[1.837s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/joystick_drivers/joy' with build type 'ament_cmake'
+[1.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/joystick_drivers/joy'
+[1.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/limo_description -- -j4 -l4
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/limo_description
+[1.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/joy': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/joy
+[2.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_description)
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description' for CMake module files
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description' for CMake config files
+[2.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_description', 'cmake_prefix_path')
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/hook/cmake_prefix_path.ps1'
+[2.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/limo_description
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/hook/cmake_prefix_path.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/hook/cmake_prefix_path.sh'
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/bin'
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/lib/pkgconfig/limo_description.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/lib/python3.12/site-packages'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/bin'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.dsv'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.sh'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.bash'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.zsh'
+[2.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/limo_description/share/colcon-core/packages/limo_description)
+[2.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_description)
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description' for CMake module files
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description' for CMake config files
+[2.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_description', 'cmake_prefix_path')
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/hook/cmake_prefix_path.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/hook/cmake_prefix_path.dsv'
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/hook/cmake_prefix_path.sh'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/bin'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/lib/pkgconfig/limo_description.pc'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/lib/python3.12/site-packages'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_description/bin'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.sh'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.bash'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_description/share/limo_description/package.zsh'
+[2.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/limo_description/share/colcon-core/packages/limo_description)
+[2.030s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/urg_node' with build type 'ament_cmake'
+[2.030s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/urg_node'
+[2.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.031s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/urg_node -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/urg_node
+[2.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/p9n_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_interface -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/p9n_interface
+[2.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/p9n_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/p9n_interface -- -j4 -l4
+[4.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/joy' returned '0': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/joy
+[4.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/joy': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/joy -- -j4 -l4
+[4.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/urg_node -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/urg_node
+[4.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/urg_node -- -j4 -l4
+[7.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_msgs -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_msgs
+[7.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/limo_msgs -- -j4 -l4
+[14.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/p9n_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/p9n_interface -- -j4 -l4
+[14.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/p9n_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/p9n_interface
+[15.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p9n_interface)
+[15.085s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface' for CMake module files
+[15.086s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface' for CMake config files
+[15.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('p9n_interface', 'cmake_prefix_path')
+[15.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/hook/cmake_prefix_path.ps1'
+[15.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/hook/cmake_prefix_path.dsv'
+[15.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/hook/cmake_prefix_path.sh'
+[15.099s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/lib'
+[15.099s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/bin'
+[15.099s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/lib/pkgconfig/p9n_interface.pc'
+[15.103s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/lib/python3.12/site-packages'
+[15.104s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/bin'
+[15.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/p9n_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/p9n_interface
+[15.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.ps1'
+[15.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.dsv'
+[15.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.sh'
+[15.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.bash'
+[15.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.zsh'
+[15.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/p9n_interface/share/colcon-core/packages/p9n_interface)
+[15.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p9n_interface)
+[15.125s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface' for CMake module files
+[15.132s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface' for CMake config files
+[15.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('p9n_interface', 'cmake_prefix_path')
+[15.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/hook/cmake_prefix_path.ps1'
+[15.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/hook/cmake_prefix_path.dsv'
+[15.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/hook/cmake_prefix_path.sh'
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/lib'
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/bin'
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/lib/pkgconfig/p9n_interface.pc'
+[15.145s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/lib/python3.12/site-packages'
+[15.146s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/p9n_interface/bin'
+[15.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.ps1'
+[15.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.dsv'
+[15.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.sh'
+[15.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.bash'
+[15.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/p9n_interface/share/p9n_interface/package.zsh'
+[15.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/p9n_interface/share/colcon-core/packages/p9n_interface)
+[15.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs' with build type 'ament_cmake'
+[15.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs'
+[15.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/wiimote_msgs
+[18.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/limo_msgs -- -j4 -l4
+[18.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/limo_msgs
+[18.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_msgs)
+[18.576s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs' for CMake module files
+[18.577s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs' for CMake config files
+[18.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'cmake_prefix_path')
+[18.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.ps1'
+[18.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.dsv'
+[18.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.sh'
+[18.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/limo_msgs
+[18.586s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/lib'
+[18.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'ld_library_path_lib')
+[18.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.ps1'
+[18.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.dsv'
+[18.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.sh'
+[18.591s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/bin'
+[18.593s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/lib/pkgconfig/limo_msgs.pc'
+[18.593s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/lib/python3.12/site-packages'
+[18.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'pythonpath')
+[18.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/pythonpath.ps1'
+[18.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/pythonpath.dsv'
+[18.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/pythonpath.sh'
+[18.601s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/bin'
+[18.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.ps1'
+[18.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.dsv'
+[18.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.sh'
+[18.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.bash'
+[18.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.zsh'
+[18.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/limo_msgs/share/colcon-core/packages/limo_msgs)
+[18.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_msgs)
+[18.613s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs' for CMake module files
+[18.617s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs' for CMake config files
+[18.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'cmake_prefix_path')
+[18.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.ps1'
+[18.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.dsv'
+[18.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.sh'
+[18.626s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/lib'
+[18.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'ld_library_path_lib')
+[18.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.ps1'
+[18.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.dsv'
+[18.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.sh'
+[18.631s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/bin'
+[18.631s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/lib/pkgconfig/limo_msgs.pc'
+[18.632s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/lib/python3.12/site-packages'
+[18.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'pythonpath')
+[18.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/pythonpath.ps1'
+[18.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/pythonpath.dsv'
+[18.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/hook/pythonpath.sh'
+[18.638s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/limo_msgs/bin'
+[18.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.ps1'
+[18.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.dsv'
+[18.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.sh'
+[18.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.bash'
+[18.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/limo_msgs/share/limo_msgs/package.zsh'
+[18.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/limo_msgs/share/colcon-core/packages/limo_msgs)
+[18.649s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/limo_ros2/limo_base' with build type 'ament_cmake'
+[18.649s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/limo_ros2/limo_base'
+[18.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_base': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/limo_msgs:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/src/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atwork/limo_3.0/src/install/limo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_base -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_base
+[23.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/limo_base' returned '0': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/limo_msgs:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/src/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atwork/limo_3.0/src/install/limo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/atwork/limo_3.0/src/limo_ros2/limo_base -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/limo_base
+[23.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/limo_base': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/limo_msgs:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/src/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atwork/limo_3.0/src/install/limo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/limo_base -- -j4 -l4
+[25.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/wiimote_msgs
+[25.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/wiimote_msgs -- -j4 -l4
+[34.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/urg_node -- -j4 -l4
+[34.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/urg_node
+[34.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[34.808s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node' for CMake module files
+[34.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/urg_node
+[34.809s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node' for CMake config files
+[34.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[34.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[34.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[34.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[34.812s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/lib'
+[34.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[34.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[34.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[34.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[34.813s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/bin'
+[34.813s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/lib/pkgconfig/urg_node.pc'
+[34.814s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/lib/python3.12/site-packages'
+[34.814s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/bin'
+[34.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.ps1'
+[34.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.dsv'
+[34.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.sh'
+[34.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.bash'
+[34.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.zsh'
+[34.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/urg_node/share/colcon-core/packages/urg_node)
+[34.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[34.819s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node' for CMake module files
+[34.820s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node' for CMake config files
+[34.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[34.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[34.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[34.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[34.822s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/lib'
+[34.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[34.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[34.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[34.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[34.824s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/bin'
+[34.824s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/lib/pkgconfig/urg_node.pc'
+[34.825s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/lib/python3.12/site-packages'
+[34.825s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/urg_node/bin'
+[34.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.ps1'
+[34.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.dsv'
+[34.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.sh'
+[34.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.bash'
+[34.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/urg_node/share/urg_node/package.zsh'
+[34.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/urg_node/share/colcon-core/packages/urg_node)
+[34.831s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/joystick_drivers/joy_linux' with build type 'ament_cmake'
+[34.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/joystick_drivers/joy_linux'
+[34.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/joy_linux
+[35.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/joy' returned '0': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/joy -- -j4 -l4
+[35.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/joy': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/joy
+[35.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[35.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/joy' returned '0': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/atwork/limo_3.0/src/build/joy
+[35.914s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy' for CMake module files
+[35.915s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy' for CMake config files
+[35.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[35.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[35.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[35.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[35.917s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/lib'
+[35.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[35.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[35.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[35.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[35.919s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/bin'
+[35.919s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/lib/pkgconfig/joy.pc'
+[35.920s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/lib/python3.12/site-packages'
+[35.920s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/bin'
+[35.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.ps1'
+[35.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/joy/share/joy/package.dsv'
+[35.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.sh'
+[35.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.bash'
+[35.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.zsh'
+[35.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/joy/share/colcon-core/packages/joy)
+[35.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[35.925s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy' for CMake module files
+[35.926s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy' for CMake config files
+[35.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[35.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[35.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[35.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[35.928s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/lib'
+[35.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[35.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[35.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[35.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atwork/limo_3.0/src/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[35.930s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/bin'
+[35.931s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/lib/pkgconfig/joy.pc'
+[35.931s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/lib/python3.12/site-packages'
+[35.931s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy/bin'
+[35.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.ps1'
+[35.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/joy/share/joy/package.dsv'
+[35.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.sh'
+[35.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.bash'
+[35.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy/share/joy/package.zsh'
+[35.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/joy/share/colcon-core/packages/joy)
+[35.938s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_node' with build type 'ament_cmake'
+[35.938s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_node'
+[35.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/p9n_node': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/joy:/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/src/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/joy:/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/src/install/p9n_interface:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/src/install/joy/lib:/home/atwork/limo_3.0/src/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_node -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/p9n_node
+[37.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/atwork/limo_3.0/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/joy_linux
+[37.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/joy_linux -- -j4 -l4
+[38.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/p9n_node' returned '0': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/joy:/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/src/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/joy:/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/src/install/p9n_interface:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/src/install/joy/lib:/home/atwork/limo_3.0/src/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_node -DCMAKE_INSTALL_PREFIX=/home/atwork/limo_3.0/src/install/p9n_node
+[38.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atwork/limo_3.0/src/build/p9n_node': AMENT_PREFIX_PATH=/home/atwork/limo_3.0/src/install/joy:/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/src/install/p9n_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atwork/limo_3.0/src/install/joy:/home/atwork/limo_3.0/src/install/sdl2_vendor:/home/atwork/limo_3.0/src/install/p9n_interface:/home/atwork/limo_3.0/install/wiimote:/home/atwork/limo_3.0/install/wiimote_msgs:/home/atwork/limo_3.0/install/urg_node:/home/atwork/limo_3.0/install/spacenav:/home/atwork/limo_3.0/install/p9n:/home/atwork/limo_3.0/install/p9n_test:/home/atwork/limo_3.0/install/p9n_node:/home/atwork/limo_3.0/install/p9n_example:/home/atwork/limo_3.0/install/joy:/home/atwork/limo_3.0/install/sdl2_vendor:/home/atwork/limo_3.0/install/p9n_interface:/home/atwork/limo_3.0/install/limo_base:/home/atwork/limo_3.0/install/limo_msgs:/home/atwork/limo_3.0/install/limo_description:/home/atwork/limo_3.0/install/joy_linux:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/atwork/limo_3.0/src/install/joy/lib:/home/atwork/limo_3.0/src/install/p9n_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/p9n_node -- -j4 -l4
+[41.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[41.526s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[41.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atwork/limo_3.0/src/build/joy_linux' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atwork/limo_3.0/install/limo_bringup:/home/atwork/limo_3.0/install/p9n_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/atwork/limo_3.0/src/build/joy_linux -- -j4 -l4
+[41.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_linux)
+[41.557s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy_linux' for CMake module files
+[41.558s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy_linux' for CMake config files
+[41.558s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy_linux/bin'
+[41.558s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy_linux/lib/pkgconfig/joy_linux.pc'
+[41.559s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy_linux/lib/python3.12/site-packages'
+[41.559s] Level 1:colcon.colcon_core.environment:checking '/home/atwork/limo_3.0/src/install/joy_linux/bin'
+[41.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy_linux/share/joy_linux/package.ps1'
+[41.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atwork/limo_3.0/src/install/joy_linux/share/joy_linux/package.dsv'
+[41.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy_linux/share/joy_linux/package.sh'
+[41.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy_linux/share/joy_linux/package.bash'
+[41.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/atwork/limo_3.0/src/install/joy_linux/share/joy_linux/package.zsh'
+[41.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atwork/limo_3.0/src/install/joy_linux/share/colcon-core/packages/joy_linux)
+[41.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[41.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[41.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[41.589s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[41.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[41.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[41.598s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[41.625s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[41.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atwork/limo_3.0/src/install/local_setup.ps1'
+[41.627s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atwork/limo_3.0/src/install/_local_setup_util_ps1.py'
+[41.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atwork/limo_3.0/src/install/setup.ps1'
+[41.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atwork/limo_3.0/src/install/local_setup.sh'
+[41.632s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atwork/limo_3.0/src/install/_local_setup_util_sh.py'
+[41.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atwork/limo_3.0/src/install/setup.sh'
+[41.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atwork/limo_3.0/src/install/local_setup.bash'
+[41.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atwork/limo_3.0/src/install/setup.bash'
+[41.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atwork/limo_3.0/src/install/local_setup.zsh'
+[41.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atwork/limo_3.0/src/install/setup.zsh'

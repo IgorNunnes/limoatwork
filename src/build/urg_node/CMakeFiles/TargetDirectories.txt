@@ -1,0 +1,12 @@
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/uninstall.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/urg_node_uninstall.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/urg_node.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/urg_node_driver.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/getID.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/test.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/edit_cache.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/rebuild_cache.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/list_install_components.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/install.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/install/local.dir
+/home/atwork/limo_3.0/src/build/urg_node/CMakeFiles/install/strip.dir

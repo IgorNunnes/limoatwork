@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-31596c8dc28c5c2c432f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "p9n_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "display_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-display_node-96455c032e3cce1c4c07.json",
+					"name" : "display_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "display_node_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-display_node_exec-914abd0ca91b4d099ae1.json",
+					"name" : "display_node_exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "p9n_example_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p9n_example_uninstall-6cbbb90614604d543310.json",
+					"name" : "p9n_example_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cacb4d64a3bf3015d18b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/atwork/limo_3.0/build/p9n_example",
+		"source" : "/home/atwork/limo_3.0/src/PlayStation-JoyInterface-ROS2/p9n_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

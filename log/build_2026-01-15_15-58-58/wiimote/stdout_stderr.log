@@ -1,0 +1,44 @@
+[ 22%] Built target wiimote_node
+[ 44%] Built target teleop_wiimote
+[ 77%] Built target wiimote_lib
+[100%] Built target teleop_wiimote_node
+-- Install configuration: ""
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/lib/wiimote/wiimote_node
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/lib/wiimote/teleop_wiimote_node
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/lib/libwiimote_lib.so
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/lib/libteleop_wiimote.so
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/include/wiimote
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/include/wiimote/wiimote
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/include/wiimote/wiimote/stat_vector_3d.hpp
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/include/wiimote/wiimote/wiimote_controller.hpp
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/include/wiimote/wiimote/teleop_wiimote.hpp
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/launch
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/launch/feedback_test.launch.py
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/launch/wiimote_lifecycle.launch.py
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/launch/turtlesim.launch.py
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/config
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/config/wiimote_params.yaml
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/config/teleop_wiimote_params.yaml
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/lib/wiimote/wiimote_node
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/lib/wiimote/feedback_tester.py
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/ament_index/resource_index/package_run_dependencies/wiimote
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/ament_index/resource_index/parent_prefix_path/wiimote
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/environment/ament_prefix_path.sh
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/environment/path.sh
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/environment/path.dsv
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/local_setup.bash
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/local_setup.sh
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/local_setup.zsh
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/local_setup.dsv
+-- Installing: /home/atwork/limo_3.0/install/wiimote/share/wiimote/package.dsv
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/ament_index/resource_index/packages/wiimote
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/ament_index/resource_index/rclcpp_components/wiimote
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/cmake/export_wiimoteExport.cmake
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/cmake/export_wiimoteExport-noconfig.cmake
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/cmake/wiimote-extras.cmake
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/cmake/wiimoteConfig.cmake
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/cmake/wiimoteConfig-version.cmake
+-- Up-to-date: /home/atwork/limo_3.0/install/wiimote/share/wiimote/package.xml

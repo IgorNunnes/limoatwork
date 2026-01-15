@@ -1,0 +1,14 @@
+/home/atwork/limo_3.0/build/joy/CMakeFiles/uninstall.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/joy_uninstall.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/joy.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/joy_node.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/game_controller.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/game_controller_node.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/joy_enumerate_devices.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/test.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/edit_cache.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/rebuild_cache.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/list_install_components.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/install.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/install/local.dir
+/home/atwork/limo_3.0/build/joy/CMakeFiles/install/strip.dir
