@@ -1,8 +1,0 @@
-{
-  "package_name": "wiimote_msgs",
-  "non_idl_tuples": [
-    "/home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs:msg/IrSourceInfo.msg",
-    "/home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs:msg/State.msg",
-    "/home/atwork/limo_3.0/src/joystick_drivers/wiimote_msgs:msg/TimedSwitch.msg"
-  ]
-}

@@ -1,0 +1,16 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Colcon symlinks
+src/log/latest
+src/log/latest_build
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
