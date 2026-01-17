@@ -10,7 +10,7 @@ options = {
   published_frame = "base_link",
   odom_frame = "odom",
 
-  provide_odom_frame = false,
+  provide_odom_frame = true,
 
   use_odometry = true,
   use_nav_sat = false,

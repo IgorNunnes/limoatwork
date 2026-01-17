@@ -49,8 +49,8 @@ add_executable(limo_base
 ament_target_dependencies(limo_base rclcpp std_msgs tf2 tf2_ros nav_msgs sensor_msgs limo_msgs tf2_geometry_msgs)
 
 install(
-  DIRECTORY include/
-  DESTINATION include
+  DIRECTORY launch maps param
+  DESTINATION share/${PROJECT_NAME}
 )
 
 install(TARGETS  
