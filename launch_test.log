@@ -1,0 +1,200 @@
+[INFO] [launch]: All log files can be found below /home/solverbot/.ros/log/2026-01-28-14-09-23-788802-atwork-13018
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [limo_base-2]: process started with pid [13043]
+[INFO] [static_transform_publisher-1]: process started with pid [13041]
+[INFO] [urg_node2_node-3]: process started with pid [13045]
+[INFO] [static_transform_publisher-4]: process started with pid [13047]
+[static_transform_publisher-1] [WARN] [1769620163.944450300] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-4] [WARN] [1769620163.945876066] []: Old-style arguments are deprecated; see --help for new-style arguments
+[ERROR] [launch_ros.actions.lifecycle_node]: Failed to make transition 'TRANSITION_CONFIGURE' for LifecycleNode '/urg_node2'
+[limo_base-2] Loading parameters: 
+[limo_base-2] - port name: ttyUSB0
+[limo_base-2] - odom frame name: odom
+[limo_base-2] - base frame name: base_link
+[limo_base-2] - odom topic name: 1
+[limo_base-2] [0m[INFO] [1769620163.963774910] [limo.limo_base]: connet the serial port:'/dev/ttyUSB0'[0m
+[static_transform_publisher-4] [INFO] [1769620163.961412897] [static_tf_pub_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.120000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'base_link' to 'laser_link'
+[limo_base-2] [0m[INFO] [1769620163.964355475] [limo.limo_base]: enableCommandedMode :[0m
+[limo_base-2] [0m[INFO] [1769620163.964428571] [limo.limo_base]: Open the serial port:'/dev/ttyUSB0'[0m
+[static_transform_publisher-1] [INFO] [1769620163.975824721] [static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-1] from '/base_link' to '/imu_link'
+[limo_base-2] [31m[ERROR] [1769620163.997301681] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.097398993] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.117398703] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.187038775] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.397719908] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.437736696] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.537803923] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.618103408] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.637918883] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.767619963] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620164.887767490] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620165.198546284] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620165.248079046] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620165.438678426] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620165.478914950] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620165.584698441] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620165.633823424] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620165.939147929] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.036245223] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.059261508] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.384522950] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.486678824] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.499707130] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.533955128] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.549288854] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.589411836] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.699878675] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.739903021] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620166.900054659] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.320569218] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.340492452] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.435513913] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.450185224] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.540673210] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.590270355] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.636661658] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.687738396] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.885925856] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620167.937943287] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.150860696] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.238221037] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.288357220] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.438471171] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.501535436] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.541643901] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.661704781] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.688629863] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.861919803] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.911905885] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.942016797] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620168.988966890] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620169.322462057] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620169.391991891] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620169.442474519] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620169.682753692] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620169.772366019] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620169.842847056] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.012949406] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.132675349] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.143140368] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.223290023] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.403469967] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.423463057] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.493062509] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.593110571] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.693345900] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.713631316] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.793398898] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.813692556] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620170.893463953] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.043984998] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.133691032] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.193725545] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.338551239] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.494025015] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.524478385] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.834352070] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620171.894378122] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.064971668] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.139234647] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.174656663] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.315180361] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.340151567] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.515355267] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.605499751] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.639720113] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.755201989] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.866254791] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620172.941626987] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.045897255] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.092912124] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.145996575] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.246074689] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.426246363] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.440489124] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.646490664] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.846649900] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.946791820] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620173.996331075] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.136523083] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.196532658] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.256602630] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.296661594] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.391401457] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.443118278] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.591599210] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.697111648] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.767519874] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.777237189] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.857152782] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620174.907749465] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.008021224] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.168443113] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.228086615] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.245423390] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.288193523] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.297568878] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.388130288] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.408113457] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.442395997] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.457730367] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.508293319] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.637925189] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.657908898] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.738070230] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.758095984] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.818456203] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.908615908] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620175.968721842] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620176.094696781] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620176.309072688] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620176.409070406] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620176.449170237] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620176.519138038] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620176.794318661] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.019563809] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.039263373] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.070593409] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.244775020] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.369976929] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.410112830] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.430006109] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.439722709] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.770363244] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620177.810401216] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.247710163] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.511147802] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.545377956] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.598063155] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.648226077] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.680824934] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.822479955] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.881088739] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620178.971470148] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.051759553] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.147632500] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.181286143] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.196016647] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.241322973] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.291892462] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.311891650] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.332063860] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.512067974] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.646379039] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.722118859] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.846578576] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.872468641] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.922370450] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620179.941982101] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620180.002128513] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620180.102178374] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620180.148544436] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620180.192797087] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620180.192929580] [limo.limo_base]: Invalid frame! Check sum failed! [0m
+[limo_base-2] [31m[ERROR] [1769620180.232706543] [limo.limo_base]: Invalid frame! Check sum failed! [0m

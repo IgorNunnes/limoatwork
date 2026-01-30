@@ -1,2 +1,1 @@
-source;share/sdl2_vendor/environment/ament_prefix_path.sh
-source;share/sdl2_vendor/environment/path.sh
+/home/solverbot/final_limo/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.dsv

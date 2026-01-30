@@ -77,12 +77,5 @@ def generate_launch_description():
             launch_arguments={'use_sim_time': use_sim_time, 'resolution': resolution,
                               'publish_period_sec': publish_period_sec}.items(),
         ),
-        Node(  # <--- Este é o NÓ 3 (Rviz)
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            output='screen',
-            parameters=[{'use_sim_time': use_sim_time}],
-            arguments=['-d', rviz_config_dir]
-        )
+
     ])

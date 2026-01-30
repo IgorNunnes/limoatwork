@@ -1,2 +1,1 @@
-source;share/limo_description/environment/ament_prefix_path.sh
-source;share/limo_description/environment/path.sh
+/home/solverbot/final_limo/build/limo_description/ament_cmake_environment_hooks/local_setup.dsv

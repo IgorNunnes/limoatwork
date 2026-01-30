@@ -1,0 +1,14 @@
+/cmd_vel
+/diagnostics
+/imu
+/limo_status
+/odom
+/parameter_events
+/rosout
+/scan
+/tf
+/tf_static
+/urg_node2/transition_event
+Type: sensor_msgs/msg/LaserScan
+Publisher count: 1
+Subscription count: 0

@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(limo_msgs_IDL_FILES "msg/LimoStatus.idl")
-set(limo_msgs_INTERFACE_FILES "msg/LimoStatus.msg")
+/home/solverbot/final_limo/build/limo_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

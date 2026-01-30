@@ -404,8 +404,7 @@ class State(metaclass=Metaclass_State):
         if 'angular_velocity_covariance' not in kwargs:
             self.angular_velocity_covariance = numpy.zeros(9, dtype=numpy.float64)
         else:
-            self.angular_velocity_covariance = numpy.array(kwargs.get('angular_velocity_covariance'), dtype=numpy.float64)
-            assert self.angular_velocity_covariance.shape == (9, )
+            self.angular_velocity_covariance = kwargs.get('angular_velocity_covariance')
         from geometry_msgs.msg import Vector3
         self.linear_acceleration_zeroed = kwargs.get('linear_acceleration_zeroed', Vector3())
         from geometry_msgs.msg import Vector3
@@ -413,8 +412,7 @@ class State(metaclass=Metaclass_State):
         if 'linear_acceleration_covariance' not in kwargs:
             self.linear_acceleration_covariance = numpy.zeros(9, dtype=numpy.float64)
         else:
-            self.linear_acceleration_covariance = numpy.array(kwargs.get('linear_acceleration_covariance'), dtype=numpy.float64)
-            assert self.linear_acceleration_covariance.shape == (9, )
+            self.linear_acceleration_covariance = kwargs.get('linear_acceleration_covariance')
         from geometry_msgs.msg import Vector3
         self.nunchuk_acceleration_zeroed = kwargs.get('nunchuk_acceleration_zeroed', Vector3())
         from geometry_msgs.msg import Vector3
@@ -422,13 +420,11 @@ class State(metaclass=Metaclass_State):
         if 'nunchuk_joystick_zeroed' not in kwargs:
             self.nunchuk_joystick_zeroed = numpy.zeros(2, dtype=numpy.float32)
         else:
-            self.nunchuk_joystick_zeroed = numpy.array(kwargs.get('nunchuk_joystick_zeroed'), dtype=numpy.float32)
-            assert self.nunchuk_joystick_zeroed.shape == (2, )
+            self.nunchuk_joystick_zeroed = kwargs.get('nunchuk_joystick_zeroed')
         if 'nunchuk_joystick_raw' not in kwargs:
             self.nunchuk_joystick_raw = numpy.zeros(2, dtype=numpy.float32)
         else:
-            self.nunchuk_joystick_raw = numpy.array(kwargs.get('nunchuk_joystick_raw'), dtype=numpy.float32)
-            assert self.nunchuk_joystick_raw.shape == (2, )
+            self.nunchuk_joystick_raw = kwargs.get('nunchuk_joystick_raw')
         self.buttons = kwargs.get(
             'buttons',
             [bool() for x in range(11)]

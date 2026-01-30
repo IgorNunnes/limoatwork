@@ -21,25 +21,25 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.actions import Node
+from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
-    map_dir = LaunchConfiguration(
-        'map',
-        default=os.path.join(
-            get_package_share_directory('limo_bringup'),
-            'maps',
-            'map.yaml'))
+    
+    # Use launch-time substitutions to ensure paths resolve to install directory
+    map_dir = PathJoinSubstitution([
+        FindPackageShare('limo_bringup'),
+        'maps',
+        'map.yaml'
+    ])
 
-    param_file_name = 'navigation2.yaml'
-    param_dir = LaunchConfiguration(
-        'params_file',
-        default=os.path.join(
-            get_package_share_directory('limo_bringup'),
-            'param',
-            param_file_name))
+    param_dir = PathJoinSubstitution([
+        FindPackageShare('limo_bringup'),
+        'param',
+        'navigation2.yaml'
+    ])
 
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
 
@@ -67,9 +67,10 @@ def generate_launch_description():
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([nav2_launch_file_dir, '/bringup_launch.py']),
             launch_arguments={
-                'map': map_dir,
+                'map': LaunchConfiguration('map'),
                 'use_sim_time': use_sim_time,
-                'params_file': param_dir}.items(),
+                'params_file': LaunchConfiguration('params_file')
+             }.items(),
         ),
 
         Node(

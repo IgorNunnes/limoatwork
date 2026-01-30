@@ -1,3 +1,1 @@
-source;share/p9n_interface/environment/ament_prefix_path.sh
-source;share/p9n_interface/environment/library_path.sh
-source;share/p9n_interface/environment/path.sh
+/home/solverbot/final_limo/build/p9n_interface/ament_cmake_environment_hooks/local_setup.dsv

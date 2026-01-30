@@ -16,7 +16,7 @@ set(_p9n_node_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT p9n_node_FIND_QUIETLY)
-  message(STATUS "Found p9n_node: 1.0.3 (${p9n_node_DIR})")
+  message(STATUS "Found p9n_node: 0.0.0 (${p9n_node_DIR})")
 endif()
 
 # warn when using a deprecated package

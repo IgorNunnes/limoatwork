@@ -10,12 +10,6 @@ from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from nav2_common.launch import RewrittenYaml
 
-DeclareLaunchArgument(
-    'map',
-    default_value='/home/solverbot/final_limo/src/limo_ros2/limo_bringup/maps/map.yaml',
-    description='Ruta absoluta al YAML del mapa'
-),
-
 def generate_launch_description():
     bringup_dir = get_package_share_directory('limo_bringup')
 
@@ -25,7 +19,6 @@ def generate_launch_description():
     params_file = LaunchConfiguration('params_file')
     bt_xml_file = LaunchConfiguration('bt_xml_file')
     use_lifecycle_mgr = LaunchConfiguration('use_lifecycle_mgr')
-    map_arg = LaunchConfiguration('map')
     remappings = LaunchConfiguration('remappings')
     map_subscribe_transient_local = LaunchConfiguration('map_subscribe_transient_local')
 
@@ -61,7 +54,7 @@ def generate_launch_description():
 
         DeclareLaunchArgument(
             'params_file',
-            default_value=os.path.join(bringup_dir, 'param', 'navigation2.yaml'),
+            default_value=os.path.join(bringup_dir, 'param', 'amcl_params.yaml'),
             description='Full path to the ROS2 parameters file to use'),
         
         DeclareLaunchArgument(
@@ -82,12 +75,6 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'map_subscribe_transient_local', default_value='false',
             description='Whether to set the map subscriber QoS to transient local'),
-        
-        DeclareLaunchArgument(
-            'map',
-            default_value='/home/solverbot/final_limo/src/limo_ros2/limo_bringup/maps/map.yaml',
-            description='Ruta absoluta al YAML del mapa'
-        ),
 
         Node(
             package='nav2_controller',
@@ -105,11 +92,11 @@ def generate_launch_description():
             remappings=remappings),
 
         Node(
-            package='nav2_behaviors',
-            executable='behavior_server',
-            name='behavior_server',
+            package='nav2_recoveries',
+            executable='recoveries_server',
+            name='recoveries_server',
             output='screen',
-            parameters=[configured_params],
+            parameters=[{'use_sim_time': use_sim_time}],
             remappings=remappings),
 
         Node(
@@ -129,22 +116,6 @@ def generate_launch_description():
             remappings=remappings),
         
         Node(
-            package='nav2_map_server',
-            executable='map_server',
-            name='map_server',
-            output='screen',
-            parameters=[configured_params, {'yaml_filename': map_arg}],
-            remappings=remappings),
-
-        Node(
-            package='nav2_amcl',
-            executable='amcl',
-            name='amcl',
-            output='screen',
-            parameters=[configured_params],
-            remappings=remappings),
-
-        Node(
             condition=IfCondition(use_lifecycle_mgr),
             package='nav2_lifecycle_manager',
             executable='lifecycle_manager',
@@ -152,11 +123,9 @@ def generate_launch_description():
             output='screen',
             parameters=[{'use_sim_time': use_sim_time},
                         {'autostart': autostart},
-                        {'node_names': ['map_server',
-                                        'amcl',
-                                        'controller_server',
+                        {'node_names': ['controller_server',
                                         'planner_server',
-                                        'behavior_server',
+                                        'recoveries_server',
                                         'bt_navigator',
                                         'waypoint_follower']}]),
     ])
