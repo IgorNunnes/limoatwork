@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/build/wiimote_msgs/rosidl_generator_py/wiimote_msgs/msg/_timed_switch_s.c

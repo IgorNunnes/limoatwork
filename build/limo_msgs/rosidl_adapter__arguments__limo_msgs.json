@@ -1,6 +1,0 @@
-{
-  "package_name": "limo_msgs",
-  "non_idl_tuples": [
-    "/home/solverbot/final_limo/src/limo_ros2/limo_msgs:msg/LimoStatus.msg"
-  ]
-}

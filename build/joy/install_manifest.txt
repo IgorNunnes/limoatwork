@@ -1,6 +1,0 @@
-/home/solverbot/final_limo/install/joy/lib/libjoy.so
-/home/solverbot/final_limo/install/joy/lib/libgame_controller.so
-/home/solverbot/final_limo/install/joy/share/joy/cmake/export_joyExport.cmake
-/home/solverbot/final_limo/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
-/home/solverbot/final_limo/install/joy/share/joy/cmake/export_game_controllerExport.cmake
-/home/solverbot/final_limo/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake

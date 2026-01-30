@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/build/wiimote_msgs/rosidl_generator_py/wiimote_msgs/__init__.py

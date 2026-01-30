@@ -1,3 +1,0 @@
-/home/solverbot/final_limo/install/spacenav/lib/libspacenav.so
-/home/solverbot/final_limo/install/spacenav/share/spacenav/cmake/export_spacenavExport.cmake
-/home/solverbot/final_limo/install/spacenav/share/spacenav/cmake/export_spacenavExport-noconfig.cmake

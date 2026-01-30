@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/build/limo_description/ament_cmake_environment_hooks/local_setup.sh

@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/build/joy_linux/ament_cmake_environment_hooks/local_setup.bash

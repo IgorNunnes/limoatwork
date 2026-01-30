@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/src/PlayStation-JoyInterface-ROS2/p9n_example/launch/display.launch.py

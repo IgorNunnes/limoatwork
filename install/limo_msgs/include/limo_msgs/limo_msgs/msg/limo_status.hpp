@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/build/limo_msgs/rosidl_generator_cpp/limo_msgs/msg/limo_status.hpp

@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/build/wiimote_msgs/rosidl_generator_c/wiimote_msgs/msg/detail/state__type_support.h

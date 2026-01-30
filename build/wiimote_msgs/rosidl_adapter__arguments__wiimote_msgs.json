@@ -1,8 +1,0 @@
-{
-  "package_name": "wiimote_msgs",
-  "non_idl_tuples": [
-    "/home/solverbot/final_limo/src/joystick_drivers/wiimote_msgs:msg/IrSourceInfo.msg",
-    "/home/solverbot/final_limo/src/joystick_drivers/wiimote_msgs:msg/State.msg",
-    "/home/solverbot/final_limo/src/joystick_drivers/wiimote_msgs:msg/TimedSwitch.msg"
-  ]
-}

@@ -1,1 +1,0 @@
-/home/solverbot/final_limo/build/limo_msgs/rosidl_generator_c/limo_msgs/msg/detail/limo_status__type_support.h

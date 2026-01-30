@@ -1,6 +1,32 @@
+# ===== ROS2 / colcon =====
 build/
 install/
 log/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== colcon generated =====
+*.env
+prefix_override/
+
+# ===== Logs & runtime artifacts =====
+*.log
+*.gv
+*.pdf
+
+# ===== C/C++ =====
 *.o
 *.a
+
+# ===== Editor / OS =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== Misc =====
 *_node
+
