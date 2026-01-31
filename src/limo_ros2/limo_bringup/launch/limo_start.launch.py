@@ -1,81 +1,131 @@
 import os
-import sys
 
 import launch
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration
 from ament_index_python.packages import get_package_share_directory
-
 
 
 def generate_launch_description():
 
-    port_name = DeclareLaunchArgument(name='port_name',
-                                             default_value='ttyUSB0')
-    odom_topic_name = DeclareLaunchArgument(name='odom_topic_name',
-                                             default_value='odom')
-    open_rviz = DeclareLaunchArgument(name='open_rviz',
-                                             default_value='false')
-    
+    port_name = DeclareLaunchArgument(
+        name='port_name',
+        default_value='ttyUSB0'
+    )
+    odom_topic_name = DeclareLaunchArgument(
+        name='odom_topic_name',
+        default_value='odom'
+    )
+    open_rviz = DeclareLaunchArgument(
+        name='open_rviz',
+        default_value='false'
+    )
+
+    # Frame do lidar (ajuste se o teu LaserScan vier com outro frame_id)
+    lidar_frame = DeclareLaunchArgument(
+        name='lidar_frame',
+        default_value='laser_frame'
+    )
+
     rviz_node = Node(
         package='rviz2',
         name='rviz2',
         executable='rviz',
         on_exit='kill',
         condition=launch.conditions.IfCondition(
-            launch.substitutions.LaunchConfiguration('open_rviz'))
+            LaunchConfiguration('open_rviz')
+        )
     )
 
-
-
-    static_transform_publisher_node = Node(
+    # base_link -> imu_link (como você já tinha)
+    static_transform_publisher_imu_node = Node(
         package='tf2_ros',
-        name='static_transform_publisher',
+        name='static_transform_publisher_imu',
         executable='static_transform_publisher',
-        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "/base_link", "/imu_link"]
+        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "base_link", "imu_link"]
+    )
+
+    # base_link -> lidar_frame (12 cm no X)
+    static_transform_publisher_lidar_node = Node(
+        package='tf2_ros',
+        name='static_transform_publisher_lidar',
+        executable='static_transform_publisher',
+        arguments=[
+            "0.12", "0.0", "0.0",   # x y z (m)
+            "0.0", "0.0", "0.0",    # roll pitch yaw (rad)
+            "base_link",
+            LaunchConfiguration('lidar_frame')
+        ]
     )
 
     limo_base_launch = IncludeLaunchDescription(
-        launch.launch_description_sources.PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('limo_base'),
-                         'launch/limo_base.launch.py')),
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory('limo_base'),
+                'launch/limo_base.launch.py'
+            )
+        ),
         launch_arguments={
-            'port_name': launch.substitutions.LaunchConfiguration('port_name'),
-            'odom_topic_name': launch.substitutions.LaunchConfiguration('odom_topic_name')
+            'port_name': LaunchConfiguration('port_name'),
+            'odom_topic_name': LaunchConfiguration('odom_topic_name')
         }.items()
     )
 
     urg_node2_launch = IncludeLaunchDescription(
-        launch.launch_description_sources.PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('urg_node2'),
-                         'launch/urg_node2.launch.py')
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory('urg_node2'),
+                'launch/urg_node2.launch.py'
+            )
         )
     )
 
-    # Throttle node to reduce lidar frequency for RViz visualization
-    # This creates /scan_throttled at 10Hz from the original /scan topic
-    scan_throttle_node = Node(
-        package='topic_tools',
-        executable='throttle',
-        name='scan_throttle',
-        arguments=['messages', '/scan', '10', '/scan_throttled'],
-        output='screen'
+    # -----------------------------
+    # LaserScan FILTER chain node
+    # -----------------------------
+    BRINGUP_PKG = 'limo_bringup'  # TROQUE se teu pacote de bringup tiver outro nome
+
+    laser_filters_yaml = os.path.join(
+        get_package_share_directory(BRINGUP_PKG),
+        'config',
+        'laser_filters.yaml'
+    )
+
+    scan_filter_node = Node(
+        package='laser_filters',
+        executable='scan_to_scan_filter_chain',
+        name='scan_filter_chain',
+        output='screen',
+        parameters=[laser_filters_yaml],
+        remappings=[
+            ('scan', '/scan'),
+            ('scan_filtered', '/scan_filtered'),
+        ]
     )
 
     ld = LaunchDescription([
         port_name,
         odom_topic_name,
         open_rviz,
+        lidar_frame,
+
         rviz_node,
-        static_transform_publisher_node,
+
+        static_transform_publisher_imu_node,
+        static_transform_publisher_lidar_node,
+
         limo_base_launch,
         urg_node2_launch,
-        scan_throttle_node,
-        launch.actions.LogInfo(msg="LIMO Lidar: Starting urg_node2 with 0.12m offset. Check /scan topic."),
-        launch.actions.LogInfo(msg="Scan throttle: /scan_throttled available at 10Hz for RViz.")
-    ])
 
+        scan_filter_node,
+
+        launch.actions.LogInfo(msg="LIMO Lidar: urg_node2 started. Raw scan in /scan."),
+        launch.actions.LogInfo(msg="TF: base_link -> lidar at x=0.12m (set by static_transform_publisher)."),
+        launch.actions.LogInfo(msg="Laser filters: publishing filtered scan in /scan_filtered (use this for Cartographer/Nav2)."),
+    ])
 
     return ld
 

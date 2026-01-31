@@ -1,0 +1,15 @@
+frame_id: map
+
+waypoints:
+  WS3:
+    x: 1.278
+    y: -0.416
+    yaw: 0.007
+
+  WS6:
+    x: 1.600
+    y: 3.155
+    yaw: -0.091
+
+routes:
+  test_route: [WS3, WS6]

@@ -1,0 +1,30 @@
+# Goal
+float32 target_offset_x      # distância final desejada até a face da WS (m)
+float32 max_scan_range       # recorte de range (m)
+float32 fov_deg              # recorte angular frontal (graus)
+float32 kx                   # ganho distância
+float32 ky                   # ganho lateral
+float32 ktheta               # ganho yaw
+
+float32 tol_x                # tolerância em distância (m)
+float32 tol_y                # tolerância lateral (m)
+float32 tol_yaw_deg          # tolerância angular (graus)
+
+float32 v_max                # limite linear (m/s)
+float32 w_max                # limite angular (rad/s)
+
+float32 timeout_sec          # timeout do docking
+
+---
+# Result
+bool success
+string message
+float32 final_error_x
+float32 final_error_y
+float32 final_error_yaw_deg
+
+---
+# Feedback
+float32 error_x
+float32 error_y
+float32 error_yaw_deg

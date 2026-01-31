@@ -59,8 +59,14 @@ def generate_launch_description():
             name='cartographer_node',
             output='screen',
             parameters=[{'use_sim_time': use_sim_time}],
-            arguments=['-configuration_directory', cartographer_config_dir,
-                       '-configuration_basename', configuration_basename]),
+            arguments=[
+                '-configuration_directory', cartographer_config_dir,
+                '-configuration_basename', configuration_basename
+            ],
+            remappings=[
+                ('scan', '/scan_filtered')
+            ]
+        ),
 
         DeclareLaunchArgument(
             'resolution',
