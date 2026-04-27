@@ -13,7 +13,7 @@ def generate_launch_description():
         launch.actions.DeclareLaunchArgument(name='odom_topic_name',
                                              default_value='odom'),
         launch.actions.DeclareLaunchArgument(name='open_rviz',
-                                             default_value='false'),
+                                             default_value='true'),
         launch_ros.actions.Node(
             package='rviz2',
             name='rviz2',
