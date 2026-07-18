@@ -201,8 +201,8 @@ local_costmap:
       plugins: ["obstacle_layer", "voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 2.0  # Tăng cost_scaling_factor để robot tránh xa chướng ngại vật hơn
-        inflation_radius: 0.3  # Tăng inflation_radius để vùng phình to hơn
+        cost_scaling_factor: 2.6  # Tăng cost_scaling_factor để robot tránh xa chướng ngại vật hơn
+        inflation_radius: 0.25  # Tăng inflation_radius để vùng phình to hơn
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: True
@@ -303,8 +303,8 @@ global_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         enabled: true
-        inflation_radius: 0.3 # Giảm inflation_radius để vùng phình nhỏ hơn
-        cost_scaling_factor: 2.0 # Giảm cost_scaling_factor để robot có thể tiếp cận chướng ngại vật gần hơn
+        inflation_radius: 0.25 # Giảm inflation_radius để vùng phình nhỏ hơn
+        cost_scaling_factor: 2.6 # Giảm cost_scaling_factor để robot có thể tiếp cận chướng ngại vật gần hơn
         inflate_unknown: false
         inflate_around_unknown: true
       always_send_full_costmap: True

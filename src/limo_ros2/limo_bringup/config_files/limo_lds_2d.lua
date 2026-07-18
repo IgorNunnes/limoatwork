@@ -22,7 +22,7 @@ options = {
   trajectory_builder = TRAJECTORY_BUILDER,
   map_frame = "map",
   tracking_frame = "base_link",
-  published_frame = "base_link",
+  published_frame = "base_link",  
   odom_frame = "odom",
   provide_odom_frame = true,
   publish_frame_projected_to_2d = true,
@@ -55,6 +55,7 @@ TRAJECTORY_BUILDER_2D.motion_filter.max_angle_radians = math.rad(0.1)
 
 POSE_GRAPH.constraint_builder.min_score = 0.7
 POSE_GRAPH.constraint_builder.global_localization_min_score = 0.7
+TRAJECTORY_BUILDER_2D.submaps.num_range_data = 120
 
 --POSE_GRAPH.optimize_every_n_nodes = 30
 

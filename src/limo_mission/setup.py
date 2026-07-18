@@ -26,9 +26,9 @@ setup(
     entry_points={
         'console_scripts': [
             'mission_ws = limo_mission.mission_ws:main',
-            'mission_manager = limo_mission.mission_manager:main',
+            'limo_main = limo_mission.main:main',
+            'mission_manager = limo_mission.main:main',
             'dock_server = limo_mission.dock_server:main',
-            'wall_docking_node = limo_mission.wall_docking_node:main',
         ],
     },
 )

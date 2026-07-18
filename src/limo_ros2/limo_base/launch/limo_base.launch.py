@@ -13,8 +13,8 @@ def generate_launch_description():
     # use_sim_time_arg = DeclareLaunchArgument('use_sim_time', default_value='false',
     #                                          description='Use simulation clock if true')
 
-    port_name_arg = DeclareLaunchArgument('port_name', default_value='ttyTHS1',
-                                         description='usb bus name, e.g. ttyTHS1')
+    port_name_arg = DeclareLaunchArgument('port_name', default_value='ttyUSB1',
+                                         description='usb bus name, e.g. ttyUSB1')
     odom_frame_arg = DeclareLaunchArgument('odom_frame', default_value='odom',
                                            description='Odometry frame id')
     base_link_frame_arg = DeclareLaunchArgument('base_frame', default_value='base_link',
@@ -47,9 +47,17 @@ def generate_launch_description():
                 'odom_topic_name': launch.substitutions.LaunchConfiguration('odom_topic_name'),
                 'pub_odom_tf': launch.substitutions.LaunchConfiguration('pub_odom_tf'),
                 'control_rate': launch.substitutions.LaunchConfiguration('control_rate'),
-                'use_mcnamu': True,
         }],
         namespace='limo'
+    )
+
+    imu_tf_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='imu_link_broadcaster',
+        arguments=['0', '0', '0', '0', '0', '0',
+                   launch.substitutions.LaunchConfiguration('base_frame'), 'imu_link'],
+        output='screen'
     )
 
     return LaunchDescription([
@@ -59,6 +67,7 @@ def generate_launch_description():
         base_link_frame_arg,
         odom_topic_arg,
         odom_tf_arg,
+        imu_tf_node,
         # is_scout_mini_arg,
         # is_omni_wheel_arg,
         # simulated_robot_arg,
